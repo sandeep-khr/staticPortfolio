@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #E4F9F5;
+    color: black;
+}
+
+h1{
+    margin-top: 0;
+    font-family: cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #056060;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #056060;
+}
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    text-align: center;
+}
+
+.middle{
+    text-align: center;
+    margin: 50px auto 50px auto;
+    
+}
+
+.bottom{
+    background-color: #66BFBF;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer-link{
+    padding: 15px;
+    text-decoration: none;
+    color: #033537;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+/*.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+*/
+
+/*.cloud2{
+    position: absolute ;
+    left: 300px;
+}
+*/
+
+.text{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    color: #066e6e;
+}
+/*
+.programmer{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    color: #066e6e;
+}
+*/
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.web{
+    float: left;
+    margin-right: 40px;
+}
+.ml{
+    float: right;
+    margin-left: 40px;
+}
+
+.profile{
+    text-align: center;
+}
+.contact-me{
+    text-align: center;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 2;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #068084;
+    color: white;
+    border: 50px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(34, 176, 181);
+    color: white;
+}
+
+.prof-desc{
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+}
+
+.lva{
+    display: inline-block;
+    width: 40%;
+}
+
+hr{
+    border-style: dotted;
+    border-top: none;
+    border-width: thick;
+    border-color: gray;
+}
