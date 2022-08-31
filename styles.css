@@ -94,6 +94,11 @@ h3{
 
 .profile{
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills{
+    margin-top: 100px;
 }
 .contact-me{
     text-align: center;
@@ -119,10 +124,15 @@ h3{
     color: white;
 }
 
+.footer-link:hover{
+    color: white;
+}
+
 .prof-desc{
     text-align: center;
     display: inline-block;
     width: 35%;
+    line-height: 2;
 }
 
 .lva{
@@ -131,8 +141,12 @@ h3{
 }
 
 hr{
-    border-style: dotted;
-    border-top: none;
-    border-width: thick;
-    border-color: gray;
+    border: dotted #9ec2c2 8px;
+    border-bottom: none;
+    width: 4%;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    padding-top: 20px;
 }
